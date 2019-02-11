@@ -1,0 +1,6 @@
+A sample program to show Meyers Singleton Pattern.
+
+Meyers Singleton Pattern:
+1. Place constructors and assignment in private section.
+2. Define a static class member function that returns the reference to static instance variable.
+3. Get the singleton object reference Singleton& inst = Singleton::getInstance()
